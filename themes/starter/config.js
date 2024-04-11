@@ -47,12 +47,12 @@ const CONFIG = {
   STARTER_FEATURE_3_TITLE_1: 'Media Services', // 特性3
   STARTER_FEATURE_3_TEXT_1: 'Detail across every asset, audience and message.', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: 'Learn More', // 特性3
-  STARTER_FEATURE_3_BUTTON_URL: '/agency', // 特性3
+  STARTER_FEATURE_3_BUTTON_URL: '/media', // 特性3
 
   STARTER_FEATURE_4_TITLE_1: 'Consultant Services', // 特性4
   STARTER_FEATURE_4_TEXT_1: 'Integrate data insights, cultural context, and business intelligence to align brands with their target audience', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: 'Learn More', // 特性4
-  STARTER_FEATURE_4_BUTTON_URL: '/agency', // 特性4
+  STARTER_FEATURE_4_BUTTON_URL: '/consultant', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
@@ -309,7 +309,10 @@ const CONFIG = {
         {
           TITLE: 'Digital Services', URL: '/digital'
         },
-        { TITLE: 'Agency Services', URL: '/agency' }
+        { TITLE: 'Media Services', URL: '/media' }
+        {
+          TITLE: 'Consultant Services', URL: '/consultant'
+        },
       ]
     },
     {
