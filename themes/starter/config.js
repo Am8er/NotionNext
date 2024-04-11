@@ -3,8 +3,8 @@
  */
 const CONFIG = {
   // 默认只展示Logo文字，如果设置了logo图片，会在文字左侧显示图标
-  STARTER_LOGO: '', // 普通logo图片 示例：/images/starter/logo/logo.svg
-  STARTER_LOGO_WHITE: '', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
+  STARTER_LOGO: '/images/starter/logo/logo.svg', // 普通logo图片 示例：/images/starter/logo/logo.svg
+  STARTER_LOGO_WHITE: '/images/starter/logo/logo-white.svg', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
 
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
 
@@ -14,7 +14,7 @@ const CONFIG = {
   STARTER_HERO_TITLE_2: 'Engage Your Audience on the Rapidly Expanding Platform with Premium Content and Effective Measurement for Tangible Outcomes.', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: 'WORK WITH US', // 英雄区按钮
-  STARTER_HERO_BUTTON_1_URL: '/contact'', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_URL: '/contact', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: 'MORE ABOUT US', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: '/about', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
