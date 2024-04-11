@@ -303,16 +303,10 @@ const CONFIG = {
     {
       TITLE: 'SERVICES',
       LINK_GROUP: [
-        {
-          TITLE: 'Creative Services', URL: '/creative'
-        },
-        {
-          TITLE: 'Digital Services', URL: '/digital'
-        },
+        { TITLE: 'Creative Services', URL: '/creative' },
+        { TITLE: 'Digital Services', URL: '/digital' },
         { TITLE: 'Media Services', URL: '/media' }
-        {
-          TITLE: 'Consultant Services', URL: '/consultant'
-        },
+        { TITLE: 'Consultant Services', URL: '/consultant' },
       ]
     },
     {
