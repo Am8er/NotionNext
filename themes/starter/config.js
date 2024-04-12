@@ -32,7 +32,7 @@ const CONFIG = {
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
   STARTER_FEATURE_TITLE: 'MUON DIGITAL AGENCY', // 特性
   STARTER_FEATURE_TEXT_1: 'ELEVATE YOUR BRAND WITH INNOVATIVE STRATEGIES AND DATA-DRIVEN CAMPAIGNS', // 特性
-  STARTER_FEATURE_TEXT_2: 'A Dynamic, Full-Service Agency Expert in Creative, Digital, and Media Solutions. ', // 特性
+  STARTER_FEATURE_TEXT_2: 'A Dynamic, Full-Service Agency Expert in Creative, Digital, Media and Consultant Solutions. ', // 特性
 
   STARTER_FEATURE_1_TITLE_1: 'Creative Services', // 特性1
   STARTER_FEATURE_1_TEXT_1: 'Cross-channel expertise in storytelling, design, video, and creative production, from social and mobile to TV and OOH.', // 特性1
