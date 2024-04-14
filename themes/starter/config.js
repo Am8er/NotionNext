@@ -317,12 +317,12 @@ const CONFIG = {
           URL: '/archive'
         },
         {
-          TITLE: 'Industry',
-          URL: '/category'
+          TITLE: 'Service Provider',
+          URL: '/links'
         },
         {
-          TITLE: 'Capability',
-          URL: '/tag'
+          TITLE: 'Report',
+          URL: '/report'
         }
       ]
     }
