@@ -296,7 +296,7 @@ const CONFIG = {
       LINK_GROUP: [
         { TITLE: 'About Muon', URL: '/about' },
         { TITLE: 'Diversity, Equity And Inclusion', URL: '/DEI' },
-        { TITLE: 'Careers', URL: '/career' },
+        { TITLE: 'Careers', URL: '/careers' },
         
       ]
     },
