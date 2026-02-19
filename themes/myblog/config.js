@@ -24,7 +24,7 @@ const CONFIG = {
 
   // 统计栏（手动维护）
   STAT_YEARS:       '9',
-  STAT_BOOKS:       '20+',
+  STAT_BOOKS:       '60+',
 
   // About 条带
   ABOUT_EMOJI:      '🦝',
