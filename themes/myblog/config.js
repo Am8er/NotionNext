@@ -42,6 +42,7 @@ const CONFIG = {
   // Newsletter
   NL_TITLE: 'Stay in the Loop ✦',
   NL_DESC:  'New articles on marketing, AI & building things — delivered to your inbox.',
+  
 }
 
 export default CONFIG
