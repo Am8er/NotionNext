@@ -12,7 +12,7 @@ const CONFIG = {
   PILL_1_LABEL:     '📣 Marketing',
   PILL_1_LINK:      '/tag/Marketing',
   PILL_2_LABEL:     '🤖 AI & Tech',
-  PILL_2_LINK:      '/tag/Business',
+  PILL_2_LINK:      '/tag/AI',
   PILL_3_LABEL:     '📚 Book Reviews',
   PILL_3_LINK:      '/category/Book Review',
 
@@ -33,7 +33,7 @@ const CONFIG = {
   // About 条带快速链接
   ABOUT_LINKS: [
     { label: '📣 Marketing',    href: '/tag/Marketing'  },
-    { label: '🤖 Business & AI', href: '/tag/Business'  },
+    { label: '🤖 AI & Tech', href: '/tag/AI'  },
     { label: '📚 Book Reviews', href: '/category/Book Review' },
     { label: 'More about me →', href: '/aboutme'        },
   ],
