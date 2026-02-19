@@ -29,7 +29,7 @@ const CONFIG = {
 
   // About 条带
   ABOUT_EMOJI:      '🦝',
-  ABOUT_BIO:        'Digital marketer turned indie builder. I write about marketing strategy, AI trends, and building products from scratch. Currently building WarmRaccoon and sharing everything I learn along the way.',
+  ABOUT_BIO:        'Digital marketer turned indie builder. I write about marketing strategy, AI trends, and building products from scratch. Currently building AI products and sharing everything I learn along the way.',
 
   // About 条带快速链接
   ABOUT_LINKS: [
