@@ -83,7 +83,7 @@ function Hero({ siteInfo }) {
 }
 
 // ─── Stats Bar ───────────────────────────────────────────────
-function StatsBar({ posts, tags }) {
+function StatsBar({ posts, tagOptions }) {
   return (
     <div className="mb-stats">
       <div className="mb-stat">
@@ -95,7 +95,7 @@ function StatsBar({ posts, tags }) {
         <span className="mb-stat-l">Years</span>
       </div>
       <div className="mb-stat">
-        <span className="mb-stat-n">{tags?.length || 0}</span>
+        <span className="mb-stat-n">{tagOptions?.length || 0}</span>
         <span className="mb-stat-l">Topics</span>
       </div>
       <div className="mb-stat">
@@ -273,19 +273,18 @@ function Footer({ siteInfo }) {
 export const LayoutBase = ({ children, siteInfo }) => (
   <>
     <MBStyle />
-    <Nav siteInfo={siteInfo} />
     {children}
-    <Footer siteInfo={siteInfo} />
   </>
 )
 
 /** 🏠 首页 */
-export const LayoutIndex = ({ posts, tags, siteInfo }) => {
-  const p = pubOnly(posts)
+export const LayoutIndex = ({ posts, tagOptions, siteInfo }) => {
+  // 不过滤 type/status，直接用 posts（NotionNext 已经过滤好了）
+  const p = posts || []
   return (
     <LayoutBase siteInfo={siteInfo}>
       <Hero siteInfo={siteInfo} />
-      <StatsBar posts={p} tags={tags} />
+      <StatsBar posts={p} tagOptions={tagOptions} />
       <FeaturedPosts posts={p} />
       <PostRows posts={p.slice(3, 11)} startIdx={3} title="Latest Articles" />
       <AboutStrip siteInfo={siteInfo} />
