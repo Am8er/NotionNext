@@ -23,6 +23,7 @@ const CONFIG = {
   BTN_ABOUT_LINK:   '/aboutme',        // 对应 Notion 中 slug=aboutme 的 Page
 
   // 统计栏（手动维护）
+  STAT_ARTICLES:    '65', 
   STAT_YEARS:       '9',
   STAT_BOOKS:       '60+',
 
