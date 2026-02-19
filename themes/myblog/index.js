@@ -99,7 +99,7 @@ function StatsBar({ posts, tagOptions }) {
   return (
     <div className="mb-stats">
       <div className="mb-stat">
-        <span className="mb-stat-n">{(posts?.length || 0)}+</span>
+        <span className="mb-stat-n">{CONFIG.STAT_ARTICLES}+</span>
         <span className="mb-stat-l">Articles</span>
       </div>
       <div className="mb-stat">
