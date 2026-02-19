@@ -41,7 +41,7 @@ function Nav({ siteInfo }) {
         <li><Link href="/archive">Archive</Link></li>
         <li><Link href="/category">Category</Link></li>
         <li><Link href="/tag">Tags</Link></li>
-        <li><Link href="/about">About</Link></li>
+        <li><Link href="/about">about</Link></li>
       </ul>
       <Link href="#newsletter" className="mn-cta">Subscribe</Link>
     </nav>
