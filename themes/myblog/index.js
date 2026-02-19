@@ -220,31 +220,88 @@ function AboutStrip({ siteInfo }) {
 }
 
 // ─── Newsletter ──────────────────────────────────────────────
+// ─── Newsletter ──────────────────────────────────────────────
+// 替换 themes/myblog/index.js 中原来的 Newsletter 函数
+// 调用 /api/subscribe，API Key 完全在服务端，前端安全
+
 function Newsletter() {
   const [email,   setEmail]   = useState('')
   const [done,    setDone]    = useState(false)
   const [loading, setLoading] = useState(false)
-  function submit() {
-    if (!email || !email.includes('@')) return
+  const [error,   setError]   = useState('')
+
+  async function submit() {
+    if (!email || !email.includes('@')) {
+      setError('Please enter a valid email address.')
+      return
+    }
     setLoading(true)
-    setTimeout(() => { setLoading(false); setDone(true) }, 500)
+    setError('')
+
+    try {
+      const res = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email })
+      })
+
+      const data = await res.json()
+
+      if (res.ok) {
+        setDone(true)
+      } else {
+        setError(data.error || 'Something went wrong, please try again.')
+      }
+    } catch (err) {
+      setError('Network error, please try again.')
+    }
+
+    setLoading(false)
   }
+
   return (
     <div className="mb-nl" id="mb-newsletter">
       <h3>{CONFIG.NL_TITLE}</h3>
       <p>{CONFIG.NL_DESC}</p>
-      {done
-        ? <p style={{color:'var(--accent)',fontFamily:'var(--sans)'}}>✓ You&apos;re in! Talk soon. 🎉</p>
-        : <div className="mb-nl-form">
-            <input className="mb-nl-input" type="email" placeholder="your@email.com"
-              value={email} onChange={e=>setEmail(e.target.value)}
-              onKeyDown={e=>e.key==='Enter'&&submit()} disabled={loading}/>
-            <button className="mb-nl-btn" onClick={submit}
-              disabled={loading} style={{opacity:loading?.7:1}}>
-              {loading?'…':'Subscribe'}
+
+      {done ? (
+        <p style={{ color: 'var(--accent)', fontFamily: 'var(--sans)', fontSize: '.95rem' }}>
+          ✓ You&apos;re in! Talk soon. 🎉
+        </p>
+      ) : (
+        <div>
+          <div className="mb-nl-form">
+            <input
+              className="mb-nl-input"
+              type="email"
+              placeholder="your@email.com"
+              value={email}
+              onChange={e => { setEmail(e.target.value); setError('') }}
+              onKeyDown={e => e.key === 'Enter' && submit()}
+              disabled={loading}
+            />
+            <button
+              className="mb-nl-btn"
+              onClick={submit}
+              disabled={loading}
+              style={{ opacity: loading ? .7 : 1 }}
+            >
+              {loading ? '…' : 'Subscribe'}
             </button>
           </div>
-      }
+          {error && (
+            <p style={{
+              color: 'var(--a2)',
+              fontFamily: 'var(--sans)',
+              fontSize: '.8rem',
+              marginTop: '.6rem',
+              textAlign: 'center'
+            }}>
+              {error}
+            </p>
+          )}
+        </div>
+      )}
     </div>
   )
 }
