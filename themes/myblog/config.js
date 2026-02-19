@@ -14,7 +14,7 @@ const CONFIG = {
   PILL_2_LABEL:     '🤖 AI & Tech',
   PILL_2_LINK:      '/tag/Business',
   PILL_3_LABEL:     '📚 Book Reviews',
-  PILL_3_LINK:      '/tag/Psychology',
+  PILL_3_LINK:      '/category/Book Review',
 
   // Hero 按钮
   BTN_BLOG_LABEL:   'Read the Blog',
@@ -34,7 +34,7 @@ const CONFIG = {
   ABOUT_LINKS: [
     { label: '📣 Marketing',    href: '/tag/Marketing'  },
     { label: '🤖 Business & AI', href: '/tag/Business'  },
-    { label: '📚 Book Reviews', href: '/tag/Psychology' },
+    { label: '📚 Book Reviews', href: '/category/Book Review' },
     { label: 'More about me →', href: '/aboutme'        },
   ],
 
