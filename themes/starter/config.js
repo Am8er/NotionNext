@@ -166,7 +166,8 @@ const CONFIG = {
   STARTER_CONTACT_LOCATION_TITLE: 'Our Location',
   STARTER_CONTACT_LOCATION_TEXT: 'United States, China',
   STARTER_CONTACT_EMAIL_TITLE: 'How Can We Help?',
-  STARTER_CONTACT_EMAIL_TEXT: 'Business@muon.ltd', // ← replace with your real email
+  STARTER_CONTACT_EMAIL_TEXT: 'Business@muon.ltd', 
+  STARTER_CONTACT_EMAIL_URL: 'mailto:business@muon.ltd',// ← replace with your real email
 
   // Embedded NoteForm (replace URL with your own MUON-branded form)
   STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/contact-us-gkko44',
