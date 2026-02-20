@@ -6,7 +6,7 @@
 const CONFIG = {
   // ─── LOGO ────────────────────────────────────────────────────────────────────
   // Leave empty to display text logo; set a path to show an image logo
-  STARTER_LOGO: 'themes/starter/muonlogo.svg',       // e.g. '/images/starter/logo/logo.svg'
+  STARTER_LOGO: '',       // e.g. '/images/starter/logo/logo.svg'
   STARTER_LOGO_WHITE: '', // e.g. '/images/starter/logo/logo-white.svg'
 
   // ─── TOP-RIGHT NAV BUTTONS ───────────────────────────────────────────────────
@@ -31,7 +31,7 @@ const CONFIG = {
   STARTER_HERO_BUTTON_2_ICON: '', // set an icon path if desired
 
   // Hero imagery — replace with your own assets or leave the defaults
-  STARTER_HERO_PREVIEW_IMAGE: 'themes/starter/file.svg',
+  STARTER_HERO_PREVIEW_IMAGE: '',
   STARTER_HERO_BANNER_IMAGE: '',
 
   // ─── FEATURES (= Your 4 Service Lines) ──────────────────────────────────────
