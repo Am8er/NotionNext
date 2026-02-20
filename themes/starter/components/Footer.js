@@ -138,7 +138,7 @@ export const Footer = props => {
                       rel='nofollow noopner noreferrer'
                       target='_blank'
                       className='px-1 text-gray-1 hover:underline'>
-                      All rights reserved. {siteConfig('VERSION')}
+                      All rights reserved. {siteConfig('')}
                     </a>
                   </p>
                 </div>
