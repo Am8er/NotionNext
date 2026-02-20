@@ -164,7 +164,7 @@ const CONFIG = {
   STARTER_CONTACT_TITLE: 'Get in Touch',
   STARTER_CONTACT_TEXT: 'Tell us about your project — we would love to help.',
   STARTER_CONTACT_LOCATION_TITLE: 'Our Location',
-  STARTER_CONTACT_LOCATION_TEXT: 'Fujian, China',
+  STARTER_CONTACT_LOCATION_TEXT: 'United States, China',
   STARTER_CONTACT_EMAIL_TITLE: 'How Can We Help?',
   STARTER_CONTACT_EMAIL_TEXT: 'Business@muon.ltd', // ← replace with your real email
 
