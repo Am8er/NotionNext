@@ -29,7 +29,7 @@ const CONFIG = {
 
   // About 条带
   ABOUT_EMOJI:      '🦝',
-  ABOUT_BIO:        'Digital marketer turned indie builder. I write about marketing strategy, AI trends, and building products from scratch. Currently building AI products and sharing everything I learn along the way.',
+  ABOUT_BIO:        'Once a digital marketer, now an indie builder on a mission. I dive into marketing strategy, explore the latest in AI, and craft products from the ground up. Right now, I am creating AI tools and openly sharing every lesson from the trenches.',
 
   // About 条带快速链接
   ABOUT_LINKS: [
