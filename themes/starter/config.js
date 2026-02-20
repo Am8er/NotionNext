@@ -15,7 +15,7 @@ const CONFIG = {
   STARTER_NAV_BUTTON_1_URL: '',
 
   STARTER_NAV_BUTTON_2_TEXT: 'Contact Us',
-  STARTER_NAV_BUTTON_2_URL: '/#contact',  // scrolls to the contact section
+  STARTER_NAV_BUTTON_2_URL: '/contact',  // scrolls to the contact section
 
   // ─── HERO ────────────────────────────────────────────────────────────────────
   STARTER_HERO_ENABLE: true,
@@ -27,7 +27,7 @@ const CONFIG = {
   STARTER_HERO_BUTTON_1_URL: '/creative',
 
   STARTER_HERO_BUTTON_2_TEXT: 'Get in Touch',
-  STARTER_HERO_BUTTON_2_URL: '/#contact',
+  STARTER_HERO_BUTTON_2_URL: '/contact',
   STARTER_HERO_BUTTON_2_ICON: '', // set an icon path if desired
 
   // Hero imagery — replace with your own assets or leave the defaults
@@ -166,10 +166,10 @@ const CONFIG = {
   STARTER_CONTACT_LOCATION_TITLE: 'Our Location',
   STARTER_CONTACT_LOCATION_TEXT: 'Fujian, China',
   STARTER_CONTACT_EMAIL_TITLE: 'How Can We Help?',
-  STARTER_CONTACT_EMAIL_TEXT: 'hello@muon.ltd', // ← replace with your real email
+  STARTER_CONTACT_EMAIL_TEXT: 'Business@muon.ltd', // ← replace with your real email
 
   // Embedded NoteForm (replace URL with your own MUON-branded form)
-  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7',
+  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/contact-us-gkko44',
 
   // ─── PARTNER BRANDS — DISABLED ───────────────────────────────────────────────
   STARTER_BRANDS_ENABLE: false,
@@ -204,7 +204,7 @@ const CONFIG = {
         { TITLE: 'About MUON', URL: '/about' },
         { TITLE: 'DEI',        URL: '/DEI' },
         { TITLE: 'Careers',    URL: '/careers' },
-        { TITLE: 'Contact',    URL: '/#contact' }
+        { TITLE: 'Contact',    URL: '/contact' }
       ]
     }
   ],
@@ -213,10 +213,10 @@ const CONFIG = {
 
   // Legal pages — you already have these as Notion pages
   STARTER_FOOTER_PRIVACY_POLICY_TEXT: 'Privacy Statement',
-  STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-statement', // match your Notion page slug
+  STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy', // match your Notion page slug
 
   STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: 'Terms & Conditions',
-  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/terms-and-conditions', // match your Notion page slug
+  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/terms-of-use', // match your Notion page slug
 
   STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '',  // hidden — merged above
   STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '',
@@ -234,7 +234,7 @@ const CONFIG = {
   STARTER_CTA_DESCRIPTION:
     'Whether you need a full-funnel campaign, a market-entry strategy, or a creative refresh — MUON has the expertise to make it happen. Reach out today for a free discovery call.',
   STARTER_CTA_BUTTON: true,
-  STARTER_CTA_BUTTON_URL: '/#contact',
+  STARTER_CTA_BUTTON_URL: 'mailto：Business@muon.ltd',
   STARTER_CTA_BUTTON_TEXT: 'Start a Conversation',
 
   // ─── MISC ─────────────────────────────────────────────────────────────────────
