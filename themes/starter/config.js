@@ -27,7 +27,7 @@ const CONFIG = {
   STARTER_HERO_BUTTON_1_URL: '/creative',
 
   STARTER_HERO_BUTTON_2_TEXT: 'Get in Touch',
-  STARTER_HERO_BUTTON_2_URL: '/contact',
+  STARTER_HERO_BUTTON_2_URL: 'mailto:business@muon.ltd',
   STARTER_HERO_BUTTON_2_ICON: '', // set an icon path if desired
 
   // Hero imagery — replace with your own assets or leave the defaults
@@ -234,7 +234,7 @@ const CONFIG = {
   STARTER_CTA_DESCRIPTION:
     'Whether you need a full-funnel campaign, a market-entry strategy, or a creative refresh — MUON has the expertise to make it happen. Reach out today for a free discovery call.',
   STARTER_CTA_BUTTON: true,
-  STARTER_CTA_BUTTON_URL: 'mailto：Business@muon.ltd',
+  STARTER_CTA_BUTTON_URL: 'mailto:business@muon.ltd',
   STARTER_CTA_BUTTON_TEXT: 'Start a Conversation',
 
   // ─── MISC ─────────────────────────────────────────────────────────────────────
